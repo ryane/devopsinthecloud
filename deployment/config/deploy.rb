@@ -2,6 +2,8 @@ require 'rubygems'
 require 'aws-sdk'
 load '/usr/share/tomcat6/scripts/config/aws.config'
 
+# Updated by Ryan at [2015-02-02 Mon 11:58]
+
 sdb = AWS::SimpleDB.new
 
 set :domain do
